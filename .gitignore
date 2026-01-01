@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore large data files (GitHub has a 100MB limit)
+*.csv
+*.xlsx
+*.zip
+*.tar.gz
+/data/
